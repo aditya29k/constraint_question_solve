@@ -4,7 +4,7 @@ class check;
   
   typedef enum {s0, s1, s2, s3} state;
   rand state val;
-  logic out;
+  bit out;
   rand bit sel;
   
   constraint sel_cons {
